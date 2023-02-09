@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+    height: 800px;
+    background-color: #000;
+}
+
+ p {
+    font-size: 18.4px;
+    color: #FFF;
+}
+
+img.profile-picture {
+    display: block;
+    width: 65px;
+    border: 5px solid #747F8D;
+    border-radius: 50%;
+}
+
+img.house {
+    display: block;
+    width: 25px;
+}
+
+.container {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    top: 100px;
+    margin: auto;
+    background-color: #262a33;
+    border-radius: 10px;
+}
+
+.main-content {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.main-content .name-id-tag {
+    display: flex;
+    padding: 15px;
+    font-weight: 800;
+}
+
+.name-id-tag p:last-child {
+    color: #CCCCCC;
+}
+
+.line {
+    position: relative;
+    width: 380px;
+    height: 1px;
+    margin-left: 10px;
+    background-color: hsl(0, 0%, 100%, 10%);
+}
+
+.description {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.description p {
+    font-weight: 0;
+    font-size: 12.8px;
+    color: #AAAAAA;
+}
