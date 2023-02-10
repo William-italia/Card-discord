@@ -4,72 +4,80 @@
     padding: 0;
     color: #fff;
 }
+@font-face {
+    font-family: 'century gothic';
+    src: url('./fonts/century-gothic-bold.ttf') format(truetype-aat);
+}
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 800px;
-    height: 800px;
-    background-color: #000;
+    font-family: 'century gothic' ;
+    background-color: #696969;
 }
 
- p {
-    font-size: 18.4px;
-    color: #FFF;
+h1 {
+    font-size: 16px;
 }
 
-img.profile-picture {
-    display: block;
-    width: 65px;
-    border: 5px solid #747F8D;
-    border-radius: 50%;
-}
-
-img.house {
-    display: block;
-    width: 25px;
+p {
+    font-style: italic;
+    font-size: .8rem;
+    color: #aaa;
+    /* height: auto; */
+    text-align: center;
+    text-align: center;
 }
 
 .container {
     position: relative;
-    width: 400px;
-    height: 200px;
-    top: 100px;
-    margin: auto;
     background-color: #262a33;
+    width: 410px;
+    height: 210px;
+    padding: 5px;
     border-radius: 10px;
+    /* margin: auto; */
+    left: 658px;
 }
 
 .main-content {
     display: flex;
     align-items: center;
-    padding: 20px;
+    height: 85px;
+    padding-bottom: 5px;
+    border-bottom: solid 0.5px hsl(0, 0%, 100%, 10%);
 }
 
-.main-content .name-id-tag {
-    display: flex;
-    padding: 15px;
-    font-weight: 800;
-}
-
-.name-id-tag p:last-child {
-    color: #CCCCCC;
-}
-
-.line {
+.profile-picture {
+    border: 3px solid #747F8D;
+    border-radius: 50%;
+    width: 53px;
+    height: 53px;
     position: relative;
-    width: 380px;
-    height: 1px;
-    margin-left: 10px;
-    background-color: hsl(0, 0%, 100%, 10%);
+    left: 2%;
+}
+
+.name {
+    margin-left: 20px;
+}
+
+.id {
+    color: #ccc;
+    font-weight: lighter;
+}
+
+.house {
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
 }
 
 .description {
-    margin-top: 15px;
-    text-align: center;
-}
-
-.description p {
-    font-weight: 0;
-    font-size: 12.8px;
-    color: #AAAAAA;
+    width: 400px;
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: .8rem;
+    font-style: italic;
+    font-weight: lighter;
 }
