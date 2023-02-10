@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -7,15 +9,23 @@
 @font-face {
     font-family: 'century gothic';
     src: url('./fonts/century-gothic-bold.ttf') format(truetype-aat);
+     /* Tipos de format() 
+    
+        - opentype (otf)
+        - truetype (ttf)
+        - embedded-opentype
+        - truetype-aat (apple advanced typography)
+        - svg
+    */
 }
 
 body {
-    font-family: 'century gothic' ;
-    background-color: #696969;
+    font-family: 'Open sans';
+    background-color: #171515;
 }
 
 h1 {
-    font-size: 16px;
+    font-size: 16.6px;
 }
 
 p {
