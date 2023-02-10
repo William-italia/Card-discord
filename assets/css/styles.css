@@ -34,8 +34,8 @@ p {
     height: 210px;
     padding: 5px;
     border-radius: 10px;
-    /* margin: auto; */
-    left: 658px;
+    margin: auto;
+    top: 200px;
 }
 
 .main-content {
