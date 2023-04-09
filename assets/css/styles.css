@@ -74,10 +74,20 @@ p {
     font-weight: lighter;
 }
 
+.house-container   {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0d111794;
+    border-radius: 4px;
+    padding: 5px;
+    margin-left: 20px;
+}
+
 .house {
-    width: 20px;
-    height: 20px;
-    margin-left: 12px;
+    width: 15px;
+    margin:  0px 5px;
+    height: 15px;
 }
 
 .description {
